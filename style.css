@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #212121;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    margin-top: 80px;
+    margin-left: 35%;
+    border-radius: 6px;
+    color: #fff;
+    max-height: 600px;
+    padding-bottom: 40px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search_box{
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    padding: 13px;
+    text-align: center;
+    width: 70%;
+    background-color: #e9fefb;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.search-btn{
+    background-color: #e9fefb;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.search-btn img{
+    width: 15px;
+    margin-top: 5px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-icon{
+    width: 180px;
+    margin-top: 20px;
+}
+
+.temp{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.city{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.more-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.info-1{
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.info-img-1{
+    width: 50px;
+    height: 40px;
+}
+
+.more-info-1{
+    display: flex;
+    margin-top: -10px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.info-2{
+    display: flex;
+    margin-right: 50px;
+    gap: 10px;
+}
+
+.more-info-2{
+    display: flex;
+    margin-top: -5px;
+    gap: 3px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.info-img-2{
+    width: 40px;
+    height: 40px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 20px;
+    display: none;
+}
